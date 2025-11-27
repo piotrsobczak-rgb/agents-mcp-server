@@ -1,0 +1,23 @@
+{
+  "name": "agents-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server - Intelligent Agent System for task automation",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": ["mcp", "agents", "automation"],
+  "author": "Sopel Przeprowadzki",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
