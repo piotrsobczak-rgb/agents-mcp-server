@@ -41,6 +41,8 @@ Available agents:
     const response = await axios.post(SERVER_URL, {
       command,
       timestamp: new Date().toISOString()
+    }, {
+      timeout: 5000
     });
 
     const result = response.data;
